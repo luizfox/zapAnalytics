@@ -1,4 +1,9 @@
 # zap-analytics
+An application showing some stack of skills and technologies I like to use: Data Science (text analytics), R, JavaScript and Angular 6. You can check out some of related technologies along this project (task runners, package managers etc.)
+
+![text analytics - associated terms, lonely boys](/sshot1.png)
+![messages over time](/sshot2.png)
+![matrix of time and date](/sshot3.png)
 
 ### Dependencies
 1. R version >= 3.4.1 for the server

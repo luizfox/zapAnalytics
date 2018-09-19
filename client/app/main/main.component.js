@@ -52,7 +52,10 @@ export class MainComponent implements OnInit {
 
 		termsFN(){
 			return this.http.get(`${SERVER}/findassociatedword?term=eleicoes`)
-					.subscribe(answer => {this.terms = answer; console.log(this.terms);},
+					.subscribe(answer => {
+						this.terms = answer;
+						this.terms = this.terms.slice (0,6);
+						console.log(this.terms);},
 										 error => {console.log(error);}
 				);
 		}
